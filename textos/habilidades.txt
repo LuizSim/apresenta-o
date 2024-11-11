@@ -1,0 +1,11 @@
+H1: Aplicação de fundamentos como programação, lógica, jogos digitais e aspectos de direitos autorais no desenvolvimento do jogo.
+
+H3: Uso de tecnologias digitais para experimentar, programar e criar um jogo interativo.
+
+H5: Planejamento e desenvolvimento de "Duck's Math" desde o protótipo até a implementação prática.
+
+H6: Inclusão de conceitos matemáticos de forma lúdica e desafiadora no jogo.
+
+H7: Desenvolvimento de imagens, áudio, animações e narrativa para enriquecer a jogabilidade.
+
+H11: Utilização de ferramentas para gerar gráficos e planilhas, registrando o progresso dos jogadores e aplicando habilidades de análise de dados.

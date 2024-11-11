@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck's Math</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/duck.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="main-content">
+        <div id="home">
+            <h1>Duck's Math</h1>
+            <button1 class="menu" id="play-button">VAMOS_LÁ!</button1>
+        </div>
+
+        <div id="presentation" style="display: none;">
+            <h2>Sobre oque vamos falar?</h2>
+            
+            <div class="button-container">
+                <button class="nav-button" id="i2">Identificação</button>
+                <button class="nav-button" id="i3">Problema</button>
+                <button class="nav-button" id="i4">Solução Proposta</button>
+                <button class="nav-button" id="i5">Resultado e Conclusões</button>
+                <button class="nav-button2" id="i6">Habilidades</button>
+                <button class="nav-button2" id="i7">Duck's Math</button>
+            </div>
+        </div>
+
+        <div id="identificacao" style="display: none;">
+            <h3 class="local">Identificação</h3>
+            <p class="caixat" id="identificação-text"></p>
+            <button class="return" id="return-i2">voltar</button>
+        </div>
+
+        <div id="problema" style="display: none;">
+            <h3 class="local">Problema</h3>
+            <p class="caixat" id="problema-text"></p>
+            <button class="return" id="return-i3">voltar</button>
+        </div>
+
+        <div id="solucao" style="display: none;">
+            <h3 class="local">Solução Proposta</h3>
+            <p class="caixat" id="solução-text"></p>
+            <button class="return" id="return-i4">voltar</button>
+        </div>
+
+        <div id="RC" style="display: none;">
+            <h3 class="local">Resultado e Conclusões</h3>
+            <p class="caixatcr" id="RC-text"></p>
+            <button class="return" id="return-i5">voltar</button>
+        </div>
+
+        <div id="habilidades" style="display: none;">
+            <h3 class="local">Habilidades</h3>
+            <p class="caixatH">
+                H1: Aplicação de fundamentos como programação, lógica, jogos digitais e aspectos de direitos autorais no desenvolvimento do jogo.
+                <br>
+                H3: Uso de tecnologias digitais para experimentar, programar e criar um jogo interativo.
+                <br>
+                H5: Planejamento e desenvolvimento de "Duck's Math" desde o protótipo até a implementação prática.
+                <br>
+                H6: Inclusão de conceitos matemáticos de forma lúdica e desafiadora no jogo.
+                <br>
+                H7: Desenvolvimento de imagens, áudio, animações e narrativa para enriquecer a jogabilidade.
+                <br>
+                H11: Utilização de ferramentas para gerar gráficos e planilhas, registrando o progresso dos jogadores e aplicando habilidades de análise de dados.
+            </p>
+            <button class="return" id="return-i6">voltar</button>
+        </div>
+
+        <div id="jogo" style="display: none;">
+            <h3 class="DM">Duck's Math</h3>
+            <p class="caixatJG" id="jogo-text"></p>
+            <a href="https://luizsim.github.io/duck-s-math/menu.html" target="_blank">
+                <img src="imagens/jogo.png" alt="Imagem do Jogo" class="img">
+            </a>
+            <button class="return" id="return-i7">voltar</button>
+        </div>        
+
+        <div class="clouds"></div>
+    </div>
+
+    <script>
+        document.getElementById('play-button').addEventListener('click', function() {
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('presentation').style.display = 'block';
+        });
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
